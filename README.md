@@ -35,17 +35,20 @@ This repository showcases a facial recognition system built entirely from scratc
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/Facial-Recognition-System.git
+   https://github.com/Rahul240499/FaceVision.git
    ```
 2. **Install Dependencies**:
    ```bash
    pip install torch torchvision numpy scikit-learn tqdm
-   ```
-3. **Prepare the Dataset**:
+   ```\
+3. **Download the Original Dataset**:
+   - Download the dataset from kaggle in the given MXNet format.
+   - [Dataset](https://www.kaggle.com/datasets/debarghamitraroy/casia-webface).
+4. **Prepare the Dataset**:
    - Use the provided scripts to convert and organize the CASIA-WebFace dataset.
-4. **Train the Model**:
+5. **Train the Model**:
    - Run the training script to start training the ResNet-50 model from scratch.
-5. **Evaluate**:
+6. **Evaluate**:
    - Assess the model's performance using the evaluation scripts.
 
 ## 🤝 Contributing
